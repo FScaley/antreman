@@ -1,0 +1,35 @@
+{
+ "pzt|2. Barbell Row (Ayakta)": {
+  "w": 25,
+  "d": "10.06.2026"
+ },
+ "pzt|1. Wide-Grip Lat Pulldown": {
+  "w": 45,
+  "d": "10.06.2026",
+  "t": 1781121452825
+ },
+ "pzt|3. Seated Dumbbell Press": {
+  "w": 17.5,
+  "d": "10.06.2026"
+ },
+ "pzt|4. Dumbbell Lateral Raise": {
+  "w": 10,
+  "d": "10.06.2026"
+ },
+ "pzt|5. Incline Dumbbell Press": {
+  "w": 20,
+  "d": "10.06.2026"
+ },
+ "car|1. Lying Leg Curl": {
+  "w": 45,
+  "d": "10.06.2026"
+ },
+ "car|2. Romanian Deadlift (RDL)": {
+  "w": 90,
+  "d": "10.06.2026"
+ },
+ "car|4. Barbell Bicep Curl": {
+  "w": 20,
+  "d": "10.06.2026"
+ }
+}
