@@ -21,8 +21,9 @@
   "d": "10.06.2026"
  },
  "car|1. Lying Leg Curl": {
-  "w": 45,
-  "d": "10.06.2026"
+  "w": 35,
+  "d": "10.06.2026",
+  "t": 1781124822649
  },
  "car|2. Romanian Deadlift (RDL)": {
   "w": 90,
@@ -31,5 +32,10 @@
  "car|4. Barbell Bicep Curl": {
   "w": 20,
   "d": "10.06.2026"
+ },
+ "car|5. Cable Overhead Triceps Ext.": {
+  "w": 35,
+  "d": "10.06.2026",
+  "t": 1781122012128
  }
 }
