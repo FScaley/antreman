@@ -102,6 +102,23 @@
   }
   footer{text-align:center;color:var(--muted);font-size:13px;padding:24px 16px}
 </style>
+<script>
+var BUILD_VERSION = "1781655012";
+(function(){
+  try{
+    var p = new URLSearchParams(location.search);
+    fetch("version.txt?cb=" + (new Date().getTime()), {cache:"no-store"})
+      .then(function(r){ return r.ok ? r.text() : null; })
+      .then(function(t){
+        if(!t) return; t = t.trim();
+        if(t && t !== BUILD_VERSION && p.get("v") !== t){
+          p.set("v", t);
+          location.replace(location.pathname + "?" + p.toString());
+        }
+      }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 </head>
 <body>
 
